@@ -38,3 +38,14 @@ git branch branchname
 --it switch to a different branch 
 git checkout branchname
 
+if we type in 
+--it will integrate/merge two different branches 
+git merge branchname
+
+For Merge-conflicts
+--a tool pops up and highlists problems causing the conflicts
+git mergetool
+
+For exiting the tool 
+-- After successful changes type in following to exit
+:wq
