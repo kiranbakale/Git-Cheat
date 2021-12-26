@@ -7,6 +7,10 @@
 <!-- ![image](https://github.com/favicon.ico) -->
 - make sure you have git installed or [download-here](https://git-scm.com/downloads)
 - Get started with Git Bash
+
+## How Git works
+![#Files](https://miro.medium.com/max/700/1*e1tZOAcVCtfXUWW7VqHDzA.png)
+
 ### First create a directory
 - Git will create a folder in C disk C:/Users/user/dirname 
 ```
