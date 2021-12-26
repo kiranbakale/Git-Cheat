@@ -18,6 +18,7 @@ mkdir directoryname
 ```
 ### Initialise the directory
 - Git will initialise the directory in C disk C:/Users/user/dirname/.git/
+- initializes a new Git repository and begins tracking an existing directory. It adds a hidden subfolder within the existing directory that houses the internal data structure required for version control
 ```
 git init
 ```
