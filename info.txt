@@ -1,0 +1,15 @@
+if we type in 
+--it will fall in staging area
+git add filename
+
+if we type in 
+--We will know changes effected after each save of the document
+git diff
+
+if we type in
+--We will get to know various changes that we made to our project
+git status
+
+if we type in 
+--it will fall into local repository
+git commit -a -m 'the message we want here to be displayed here'
