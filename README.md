@@ -48,7 +48,11 @@ git remote add repo or aliasname repo url
 ```
 git push repooraliasname master
 ```
-
+## Updating Local docs with docs in remote repository
+- Git helps developers use this command if at all made commits to a branch on a remote-repo, and they would like to reflect those changes in their local environment
+```
+git pull
+```
 # Branching
 
 - Git will create a different branch 
@@ -74,3 +78,4 @@ For exiting the tool
 ```
 :wq
 ```
+
