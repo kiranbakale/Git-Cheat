@@ -8,14 +8,14 @@
 - make sure you have git installed or [download-here](https://git-scm.com/downloads)
 - Get started with Git Bash
 ### First create a directory
-- Git will create a directory in C disk C:/Users/user/dirname 
+- Git will create a folder in C disk C:/Users/user/dirname 
 ```
 mkdir directoryname
 ```
 ### Initialise the directory
 - Git will initialise the directory in C disk C:/Users/user/dirname/.git/
 ```
-git init!
+git init
 ```
 ### Moving our files to staging area
 - Typing following command files will be moved to staging area
@@ -36,7 +36,7 @@ git status
 ```
 git commit -a -m 'the message we want here to be displayed here'
 ```
-## Create an repositories and have its https link copied before moving ahead
+## :warning: Create an repositories and have its https link copied before moving ahead :warning:
 ### Configuring our local repository to move files remote repository  
 - If we type in command it will be connected to remote repository
 
