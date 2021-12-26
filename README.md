@@ -43,17 +43,17 @@ git commit -a -m 'the message we want here to be displayed here'
 ```
 git remote add repo or aliasname repo url
 ```
-## Finally pushing our docs from local to an remote repository
+### Finally pushing our docs from local to an remote repository
 - Git will push our docs in local repo to master branch in remote repo 
 ```
 git push repooraliasname master
 ```
-## Updating Local docs with docs in remote repository
+### Updating Local docs with docs in remote repository
 - Git helps developers use this command if at all made commits to a branch on a remote-repo, and they would like to reflect those changes in their local environment
 ```
-git pull
+git pull aliasname branch
 ```
-# Branching
+## Branching
 
 - Git will create a different branch 
 ```
@@ -68,6 +68,13 @@ git checkout branchname
 ```
 git merge branchname
 ```
+## Cloning
+Git clone is a command for downloading existing source code from a remote repository (like Github, for example). Git clone basically makes an identical copy of the latest version of a project in a repository and saves it to your computer.
+```
+git clone -b <Branch name><Repository URL>  
+
+```
+
 ## For Merge-conflicts
 - A tool pops up and highlights problems causing the conflicts
 ```
