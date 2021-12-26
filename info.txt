@@ -1,3 +1,12 @@
+First create a directory
+--it will create a directory in C disk C:/Users/user/dirname 
+mkdir directoryname
+
+Initialise the directory
+it will initialise the directory in C disk C:/Users/user/dirname/.git/
+git init
+
+
 if we type in 
 --it will fall in staging area
 git add filename
@@ -21,3 +30,11 @@ git remote add repo or aliasname repo url
 if we type in 
 --it will push our docs in local repo to master branch in remote repo 
 git push repooraliasname master
+
+if we type in 
+--it will create a different branch 
+git branch branchname
+
+--it switch to a different branch 
+git checkout branchname
+
