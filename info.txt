@@ -13,3 +13,11 @@ git status
 if we type in 
 --it will fall into local repository
 git commit -a -m 'the message we want here to be displayed here'
+
+if we type in 
+--it will be connected to remote repository
+git remote add repo or aliasname repo url
+
+if we type in 
+--it will push our docs in local repo to master branch in remote repo 
+git push repooraliasname master
