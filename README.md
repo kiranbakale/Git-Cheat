@@ -26,7 +26,7 @@ git add filename
 ### Have a look at the changes
 - We will know changes in form of description effected after each save of the specific document
 ```
-git diff
+git diff filename
 ```
 - We will get to know various changes that we made to our whole project
 ```
