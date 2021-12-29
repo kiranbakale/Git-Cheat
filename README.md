@@ -1,10 +1,6 @@
 # Cheat-Sheet for quick use of Git & GitHub 
+![install-git-for-multiple-users-removebg-preview (1)](https://user-images.githubusercontent.com/46279617/147650960-d4116f9f-0822-44a7-9c85-edb80da3ab04.png)
 
-![#Files](https://o.remove.bg/downloads/c34af629-2b18-4b31-ae94-9e177da26655/install-git-for-multiple-users-removebg-preview.png) 
-<!-- <img src="https://github.com/favicon.ico" align="center" height="48" width="48" left="60" top="10"></a> -->
-
-<!-- ![test](https://github.com/favicon.ico) -->
-<!-- ![image](https://github.com/favicon.ico) -->
 - make sure you have git installed or [download-here](https://git-scm.com/downloads)
 - Get started with Git Bash
 
