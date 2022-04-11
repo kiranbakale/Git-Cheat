@@ -37,7 +37,8 @@ git status
 ```
 git commit -a -m 'the message we want here to be displayed here'
 ```
-## :warning: Create an repositories and have its https link copied before moving ahead :warning:
+## :warning: Create an repositories and have its https link copied before moving ahead like the following one :warning:
+![repo link example](https://github.com/[kiranbakale]/[Git-Cheat]/blob/[master]/code.jpg?raw=true)
 ### Configuring our local repository to move files remote repository  
 - If we type in command it will be connected to remote repository
 
