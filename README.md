@@ -38,17 +38,43 @@ git status
 git commit -a -m 'the message we want here to be displayed here'
 ```
 ## :warning: Create an repositories and have its https link copied before moving ahead like the following one :warning:
-![repo link example](https://github.com/[kiranbakale]/[Git-Cheat]/blob/[master]/code.jpg?raw=true)
+![repo link example](https://user-images.githubusercontent.com/46279617/162811236-c67d8f8d-c223-4d04-918c-1b14fdba4008.jpg)
+### push an existing repository from the command line
+```
+echo "# gittest" >> README.md
+```
+```
+git push -u origin main
+```
+```
+git init
+```
+```
+git add README.md
+```
+```
+git commit -m "first commit"
+```
+```
+git branch -M main
+```
+```
+git remote add origin https://github.com/kiranbakale/gittest.git
+```
 ### Configuring our local repository to move files remote repository  
 - If we type in command it will be connected to remote repository
 
 ```
 git remote add repo or aliasname repo url
 ```
+### Selecting a branch
+```
+git branch -M main
+```
 ### Finally pushing our docs from local to an remote repository
 - Git will push our docs in local repo to master branch in remote repo 
 ```
-git push repooraliasname master
+git push -u origin main
 ```
 ### Updating Local docs with docs in remote repository
 - Git helps developers use this command if at all made commits to a branch on a remote-repo, and they would like to reflect those changes in their local environment
