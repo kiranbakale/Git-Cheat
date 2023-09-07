@@ -103,6 +103,68 @@ git clone -b <Branch name><Repository URL>
 
 ```
 
+
+### Command for unstaging the file which is added in the staging environment
+```
+git restore --staged filename
+```
+- History of the commits
+```
+git logs
+```
+- To jumping to specific commit and deleting the older 
+
+
+```
+git reset commit-hash-id
+```
+
+- HEAD is a pointer that will point to current working branch
+and also say in which branch, the latest commits will be pushed.
+
+
+
+unstaging a commit that is already being pushed to remote repo
+
+```
+git reset below-commit-log-id
+```
+```
+git add .
+```
+```
+git stash
+```
+```
+git push origin kk -f
+```
+
+fetching commits from upstream repo and keeping our repo insync with upstream repo
+```
+git fetch --all --prune
+
+git reset --hard upstream
+
+git push origin main
+
+squashing the commits
+
+git rebase -i commit-hash
+
+```
+### Pointers
+
+- upstream is the parent repo
+- Any new thing you are working on create a new branch in local start
+working from there
+- 1 pull req = 1 branch
+- If you want to push newly created remote repo, then command
+```
+git push origin branchname
+```
+
+
+
 ## For Merge-conflicts
 - A tool pops up and highlights problems causing the conflicts
 ```
